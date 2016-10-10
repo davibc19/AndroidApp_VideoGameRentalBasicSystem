@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/admJogos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jogos" />
+
+        <Button
+            android:id="@+id/admAcoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ações da Locadora" />
+
+        <Button
+            android:id="@+id/admEstoques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estoques" />
+
+        <Button
+            android:id="@+id/admRelatorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relatórios" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Bem Vindo à página de Administrador! Escolha uma das operações abaixo:"
+       android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/admDeslogar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Deslogar" />
+
+</RelativeLayout>

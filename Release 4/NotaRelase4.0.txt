@@ -1,0 +1,3 @@
+Nesta quarta e última release, foram feitos os relatórios e a visualização de estoque para administrador e usuário.
+
+Os campos de registro de alguma ação de algum jogo (compra, venda ou locação) passaram a ser obrigatórios

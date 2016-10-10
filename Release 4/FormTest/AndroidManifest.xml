@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.formtest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".NovoUsuario"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.NOVOUSUARIO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".ListadeUsuarios"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.LISTADEUSUARIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".AdminLoginPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.ADMINLOGINPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CrudJogo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.CRUDJOGO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CadastroJogos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.CADASTROJOGOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".AcoesLocadora"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.ACOESLOCADORA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".EstoquesAdmUsr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.ESTOQUESADMUSR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+         <activity
+            android:name=".UsrLoginPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.USRLOGINPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Relatorios_vendaLocacao"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.package.formtest.RELATORIOS_VENDALOCACAO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+         
+    </application>
+
+</manifest>

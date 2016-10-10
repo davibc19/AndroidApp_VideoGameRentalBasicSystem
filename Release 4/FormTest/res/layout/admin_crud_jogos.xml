@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+     <EditText
+         android:id="@+id/ETNomeJogo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:ems="10"
+         android:hint="Nome do Jogo" >
+
+         <requestFocus />
+     </EditText>
+
+     <Button
+         android:id="@+id/CadastrarNovoJogo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_toLeftOf="@+id/cancelar3"
+         android:text="Cadastrar Novo" />
+
+     <Button
+         android:id="@+id/cancelar3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/linearLayout1"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:text="Voltar" />
+
+     <Button
+         android:id="@+id/BuscarJogo"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/listView1"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:text="Buscar" />
+
+     <Spinner
+         android:id="@+id/spinnerJogo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/ETNomeJogo"
+         android:layout_marginTop="22dp" />
+
+     <ListView
+         android:id="@+id/listView1"
+         android:layout_width="match_parent"
+         android:layout_height="243dp"
+         android:layout_above="@+id/CadastrarNovoJogo"
+         android:layout_alignParentLeft="true" >
+     </ListView>
+
+</RelativeLayout>
